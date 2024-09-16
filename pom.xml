@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.sky</groupId>
+    <artifactId>SkyBag</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <name>SkyBag</name>
+
+    <repositories>
+        <repository>
+            <id>spigotmc-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
+    <build>
+        <!-- 产生的构件的文件名，默认值是${artifactId}-${version}。 -->
+        <finalName>SkyBag</finalName>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>1.12.2-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- 引入本地lib包 -->
+        <dependency>
+            <groupId>org.serverct.ersha</groupId>
+            <artifactId>AttributePlus</artifactId>
+            <scope>system</scope>
+            <version>3.3.1.2</version>
+            <systemPath>${project.basedir}/lib/AttributePlus.jar</systemPath>
+        </dependency>
+    </dependencies>
+
+</project>

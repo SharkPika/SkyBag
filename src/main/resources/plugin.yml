@@ -1,0 +1,11 @@
+main: cn.sky.skybag.SkyBag
+version: 1.0.1
+name: SkyBag
+author: pi_ka
+depend:
+  - AttributePlus
+commands:
+  skybag:
+    aliases:
+      - sbag
+      - sb

@@ -1,0 +1,12 @@
+BagTitle: "&7收藏背包"
+Check: "收藏属性"
+CheckValue: "级别"
+TypeValues:
+  - "军规: 10"
+slots:
+  15: 15
+  45: 45
+perms:
+  15: "skybag.15"
+  45: "skybag.45"
+#最多45 多了报错
