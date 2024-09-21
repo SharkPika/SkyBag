@@ -1,2 +1,3 @@
 # SkyBag
-A MineCraft Plugin for Storage
+A MineCraft Plugin for Accessory
+Just Hook AttributePlus
